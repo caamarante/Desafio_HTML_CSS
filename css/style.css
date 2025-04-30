@@ -1,0 +1,31 @@
+@import url('https://fonts.cdnfonts.com/css/ford');
+#header {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+    height: 94px;
+}
+
+#header img {
+    position: absolute;
+    left: 0;
+} 
+
+#menu {
+    width: 450px;
+    align-self: center;
+}
+
+#menu_lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_link{
+    font-family: 'Ford', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #1351d8;
+    text-decoration: none;
+}
