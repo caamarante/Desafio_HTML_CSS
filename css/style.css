@@ -1,25 +1,25 @@
 @import url('https://fonts.cdnfonts.com/css/ford');
 #header {
-    display: flex;
-    flex-wrap: nowrap;
     width: 100%;
-    justify-content: center;
-    height: 94px;
+    height: 80px;
+    border-bottom: 1px solid #1351d8;
 }
 
 #header img {
     position: absolute;
     left: 0;
+    height: 75px;
 } 
 
 #menu {
-    width: 450px;
-    align-self: center;
+    height: 100%;
+    align-content: center;
 }
 
 #menu_lista {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    grid-gap: 30px;
 }
 
 .menu_link{
