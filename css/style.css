@@ -162,3 +162,62 @@ body {
 .botao_produtos:hover {
     background-color: #1b357e;
 }
+
+/* pagina de contato*/
+
+#contato_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.img_contato {
+    width: 25rem;
+    align-self: baseline;
+}
+
+#form_contato {
+    width: 23.125rem;
+    display: grid;
+    grid-gap: .5rem;
+}
+
+#form_contato h1 {
+    font-weight: bold;
+}
+
+.input_form {
+    border: solid 1px #00000050;
+    border-radius: .75rem;
+    height: 2.5rem;
+    padding-left: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.botao_enviar {
+    height: 2.8125rem;
+    width: 15.625rem;
+    background-color: #1351d8;
+    border: none;
+    border-radius: .625rem;
+    color: white;
+    font-size: .875rem;
+    justify-self: end;
+}
+
+.botao_enviar:hover {
+    background-color: #1b357e;
+    font-size: 1rem;
+    height: 3.125rem;
+}
