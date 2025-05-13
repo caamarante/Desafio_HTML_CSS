@@ -72,6 +72,10 @@ body {
     flex-wrap: nowrap;
 }
 
+.copyright {
+    color: white;
+}
+
 .footer_dir {
     margin-right: 3.75rem;
 }
@@ -134,12 +138,14 @@ body {
 .item_descricao {
     color: #1351d8;
     font-size: 1rem;
+    text-align: left;
 }
 .item_valor {
     font-size: .8125rem;
+    text-align: left;
 }
 
-.label_checkbox img {
+.click_checkbox img {
     width: 1.625rem;
     height: 1.625rem;
     align-self: center;
@@ -244,14 +250,8 @@ input[type=number] {
     .video_lancamento {
         height: 34.375rem;
     }
-    .itens_produtos > img:first-child {
-        width: 18.4375rem;
-    }
-    .click_checkbox {
-        width: 18.75rem;
-    }
 
-    /* Lançamento */
+    /* Contato */
     #form_contato h1 {
         font-size: 1.125rem;
     }
@@ -284,7 +284,6 @@ input[type=number] {
         flex-direction: column;
         margin-top: 2.5rem;
     }
-    
     .img_contato {
         align-self: auto;
     }
@@ -305,5 +304,24 @@ input[type=number] {
         flex-direction: column;
         grid-gap: .3125rem;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    /* Index */
+    .descrever_principal {
+        width: 90%;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .footer_esq p {
+        font-size: 1rem;
+    }
+    
+    .footer_dir {
+        margin-right: 1.25rem;
     }
 }
