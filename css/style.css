@@ -304,7 +304,6 @@ input[type=number] {
     #contato_principal {
         flex-direction: column;
         margin-top: 2.5rem;
-        margin-bottom: 5.9375rem;
     }
     .img_contato {
         align-self: auto;
