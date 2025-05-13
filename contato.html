@@ -20,19 +20,19 @@
     </header>
     <main id="contato_principal">
         <img class="img_contato" src="img/xls 2.2 diesel.jpg" alt="Carro Ford xls 2.2">
-        <form action="" id="form_contato">
+        <form action="#" id="form_contato">
             <h1>Sobre Você</h1>
             <input class="input_form" type="text" placeholder="NOME*">
             <input class="input_form" type="email" name="email" id="email" placeholder="E-MAIL*">
-            <input class="input_form" type="number" name="cpf" id="cpf" placeholder="CPF*">
-            <input class="input_form" type="text" placeholder="SOBRENOME*">
             <input class="input_form" type="number" name="telefone" id="telefone" placeholder="TELEFONE*">
             <select class="input_form" name="forma_contato" id="forma_contato">
-                <option value="" disabled selected>COMO DESEJA SER CONTATADO</option>
-                <option value="tel">TELEFONE</option>
-                <option value="e_mail">E-MAIL</option>
+                <option value="" disabled selected>TIPO DE CONTATO</option>
+                <option value="elogio">ELOGIO</option>
+                <option value="reclamacao">RECLAMAÇÃO</option>
+                <option value="solicitacao">SOLICITAÇÃO</option>
             </select>
-            <input class="botao_enviar" type="button" value="Enviar">
+            <textarea class="input_form" id=""placeholder="MENSAGEM*"></textarea>
+            <input class="botao_enviar" type="button" value="Enviar" onclick="window.location.href='contato.html';">
         </form>
 
     </main>
