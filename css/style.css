@@ -3,6 +3,10 @@ body {
     font-family: 'Ford', sans-serif;
 }
 
+main {
+    margin-bottom: 90px;
+}
+
 #header {
     width: 100%;
     height: 5.625rem;
@@ -104,20 +108,35 @@ body {
     height: 37.5rem;
 }
 
+.descricao_video {
+    margin-top: .625rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+    width: 90%;
+    justify-self: center;
+}
+
 .produtos {
     display: flex;
     width: 100%;
-    margin-bottom: 5.9375rem;
     justify-content: center;
     margin-top: 1.25rem;
 }
 
-.lista_produtos, .click_checkbox, .label_checkbox {
+.click_checkbox, .label_checkbox {
     display: flex;
 }
 
 .lista_produtos {
-    grid-gap: 2.5rem;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.lista_produtos td {
+    padding: 0 1rem;
+    vertical-align: top;
 }
 .click_checkbox {
     width: 20.625rem;
@@ -260,14 +279,16 @@ input[type=number] {
 @media only screen and (max-width: 1090px) {
 
     /* Lançamento */
-    .lista_produtos {
-        flex-direction: column;
-    }
-    .itens_produtos > img:first-child {
-        width: 23.125rem;
+    .lista_produtos td {
+        display: block;
+        width: 100%;
+        padding: 1rem 0;
     }
     .click_checkbox {
         width: 25rem;
+    }
+    .botao_produtos {
+        margin-top: 1.875rem;
     }
 
 }
@@ -283,6 +304,7 @@ input[type=number] {
     #contato_principal {
         flex-direction: column;
         margin-top: 2.5rem;
+        margin-bottom: 5.9375rem;
     }
     .img_contato {
         align-self: auto;
