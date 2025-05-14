@@ -1,4 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/ford');
+
+:root {
+    --cor-primaria: #1b357e;
+    --cor-secundaria: #1351d8;
+}
+
 body {
     font-family: 'Ford', sans-serif;
 }
@@ -34,12 +40,12 @@ main {
 .menu_link{
     font-weight: bold;
     font-size: 1.5rem;
-    color: #1351d8;
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 
 .menu_link:hover {
-    color: #1b357e;
+    color: var(--cor-primaria);
 }
 
 #home_principal {
@@ -60,7 +66,7 @@ main {
 }
 
 #footer {
-    background-color: #1b357e;
+    background-color: var(--cor-primaria);
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -155,7 +161,7 @@ main {
 }
 
 .item_descricao {
-    color: #1351d8;
+    color: var(--cor-secundaria);
     font-size: 1rem;
     text-align: left;
 }
@@ -174,7 +180,7 @@ main {
     margin-top: 3.125rem;
     display: flex;
     justify-self: center;
-    background-color: #1351d8;
+    background-color: var(--cor-secundaria);
     color: white;
     font-size: 1rem;
     font-weight: bold;
@@ -185,7 +191,7 @@ main {
 }
 
 .botao_produtos:hover {
-    background-color: #1b357e;
+    background-color: var(--cor-primaria);
 }
 
 /* pagina de contato*/
@@ -233,7 +239,7 @@ input[type=number] {
 .botao_enviar {
     height: 2.8125rem;
     width: 15.625rem;
-    background-color: #1351d8;
+    background-color: var(--cor-secundaria);
     border: none;
     border-radius: .625rem;
     color: white;
@@ -242,7 +248,7 @@ input[type=number] {
 }
 
 .botao_enviar:hover {
-    background-color: #1b357e;
+    background-color: var(--cor-primaria);
     font-size: 1rem;
     height: 3.125rem;
 }
