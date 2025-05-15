@@ -23,7 +23,7 @@
         <form action="#" id="form_contato">
             <h1>Sobre Você</h1>
             <input class="input_form" type="text" placeholder="NOME*">
-            <input class="input_form" type="email" name="email" id="email" placeholder="E-MAIL*">
+            <input class="input_form" type="email" name="email" id="email" placeholder="E-MAIL*" required>
             <input class="input_form" type="number" name="telefone" id="telefone" placeholder="TELEFONE*">
             <select class="input_form" name="forma_contato" id="forma_contato">
                 <option value="" disabled selected>TIPO DE CONTATO</option>
@@ -32,7 +32,7 @@
                 <option value="solicitacao">SOLICITAÇÃO</option>
             </select>
             <textarea class="input_form" id=""placeholder="MENSAGEM*"></textarea>
-            <input class="botao_enviar" type="button" value="Enviar" onclick="window.location.href='contato.html';">
+            <input class="botao_enviar" type="submit" value="Enviar">
         </form>
 
     </main>
